@@ -27,19 +27,31 @@ Initialize Node.js Project:
     Open terminal inside the server folder and run:
     
     npm init -y
-    This creates the package.json file which manages project dependencies.
+  This creates the package.json file which manages project dependencies.  
 Install Required Packages:
- Install backend dependencies:
-npm install express mongoose cors dotenv jsonwebtoken bcryptjs
-
+        Install backend dependencies:
+        
+        npm install express mongoose cors dotenv jsonwebtoken bcryptjs
+                
 
 Package Purpose:
-express → Backend framework
-mongoose → MongoDB connection
-cors → Cross-origin requests
-dotenv → Environment variables
-jsonwebtoken → Authentication
-bcryptjs → Password hashing
+        express → Backend framework
+        mongoose → MongoDB connection
+        cors → Cross-origin requests
+        dotenv → Environment variables
+        jsonwebtoken → Authentication
+        bcryptjs → Password hashing
+
+
+Project Execution:
+
+        Execution Steps
+        Open terminal in server folder.
+        Make sure you have a start script in the package.js file.
+        Run:
+        npm start
+        
+
 
 
       
