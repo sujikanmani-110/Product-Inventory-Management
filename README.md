@@ -58,7 +58,7 @@ API Testing :
 
 Register:
 
-              The register functionality allows new users to create an account by submitting their details, which are validated and securely stored with a hashed password. It ensures unique user creation before granting access to the system.
+      The register functionality allows new users to create an account by submitting their details, which are validated and securely stored with a hashed password. It ensures unique user creation before granting access to the system.
 
 Login:
 
