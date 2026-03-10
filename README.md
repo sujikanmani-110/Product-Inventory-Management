@@ -53,5 +53,28 @@ Project Execution:
         
 
 
+API Testing :
+      Use Thunder Client to test APIs:  
 
-      
+Register:
+
+              The register functionality allows new users to create an account by submitting their details, which are validated and securely stored with a hashed password. It ensures unique user creation before granting access to the system.
+
+Login:
+
+      The login functionality verifies user credentials and generates a JWT token upon successful authentication. This token is used to access protected routes securely.
+
+Create Product:
+
+    Allows an authenticated user to add a new product to their inventory by submitting product details. The product is saved with the user’s ID to maintain ownership.
+
+Get all Products:
+    
+    Fetches all products that belong to the logged-in user. It ensures users can view only their own inventory data.
+Update Product:
+
+    Enables users to modify existing product details such as name, price, or quantity. The system verifies ownership before allowing any updates.
+Delete Product:
+    
+    Allows users to permanently remove a product from their inventory. The operation is protected to ensure only the product owner can delete it.
+     
